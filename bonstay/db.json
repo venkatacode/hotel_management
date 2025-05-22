@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Maria",
+      "address": "Bangalore,Karnataka",
+      "email": "maria@gmail.com",
+      "phoneNo": 1234567890,
+      "password": "maria123456"
+    },
+    {
+      "name": "Setna",
+      "address": "Bangalore",
+      "phoneNo": "1234567890",
+      "email": "setna@gmail.com",
+      "password": "Setna@123",
+      "id": 2
+    },
+    {
+      "name": "Sera",
+      "address": "bangalore",
+      "phoneNo": "1234567890",
+      "email": "sera@gmail.com",
+      "password": "Sera@1234",
+      "id": 3
+    },
+    {
+      "name": "Daisy",
+      "address": "Bangalore",
+      "phoneNo": "1234567890",
+      "email": "daisy@gmail.com",
+      "password": "Daisy@123",
+      "id": 4
+    },
+    {
+      "name": "prasad",
+      "address": "eeee",
+      "phoneNo": "5678904321",
+      "email": "ppp@gmail.com",
+      "password": "9876543210",
+      "id": 5
+    },
+    {
+      "name": "prasad",
+      "address": "eeee",
+      "phoneNo": "5678904321",
+      "email": "ppp@gmail.com",
+      "password": "9876543210",
+      "id": 6
+    },
+    {
+      "name": "jerry",
+      "address": "jerry@flat-b",
+      "phoneNo": "8654321896",
+      "email": "jerry@gmail.com",
+      "password": "jerry@1234",
+      "id": 7
+    },
+    {
+      "name": "prasad",
+      "address": "flat-b",
+      "phoneNo": "9876543210",
+      "email": "prasad@gmail.com",
+      "password": "123456@prasa",
+      "id": 8
+    },
+    {
+      "name": "venkat",
+      "address": "flata",
+      "phoneNo": "8765432109",
+      "email": "venkata@gmail.com",
+      "password": "prasad12345",
+      "id": 9
+    },
+    {
+      "name": "prasad",
+      "address": "flat-b",
+      "phoneNo": "8466960934",
+      "email": "prasad@gmail.com",
+      "password": "Lion@0118",
+      "id": 10
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "hotelName": "Paradise Stay",
+      "city": "Bangalore",
+      "description": "A home to relax at the 'city' peek with all the facilities near you",
+      "amenities": "Different Cuisine Food, Swimming Pool, Self Cooking Station",
+      "phoneNo": 9090909090,
+      "address": "120/1C, Bangalore, Karnataka",
+      "imageUrl": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201008301457553185-14514cca504f11ec87ce0a58a9feac02.jpg",
+      "reviews": [
+        "Good Accomodation",
+        "Best place to relax with friends and family",
+        "The best place to chill with friends. ",
+        "The best place I ever visited.",
+        "Best visiting place",
+        "super rooms",
+        "Awesome Rooms\n",
+        "super Rooms"
+      ]
+    },
+    {
+      "id": 2,
+      "hotelName": "Hill Palace",
+      "city": "Kochi",
+      "description": "A cool place to relax at Lake side",
+      "amenities": "Homely Food, Sea Food, Children's Park, Boating",
+      "phoneNo": 9191919191,
+      "address": "90/1A, Kochi, Kerala",
+      "imageUrl": "https://r1imghtlak.mmtcdn.com/e3b89936883411eeab750a58a9feac02.jpg",
+      "reviews": [
+        "Must visit place. The cuisine available here is so amazing.",
+        "My favorite place to relax on my vacations",
+        "Awesome Welcome\n"
+      ]
+    },
+    {
+      "id": 3,
+      "hotelName": "Monsoon Stay",
+      "city": "Chennai",
+      "description": "A luxurious but affordable stay as in your home",
+      "amenities": "24 hr Homely Food, Security, Children's Park",
+      "phoneNo": 9292929292,
+      "address": "100/1A, Chennai, Tamil Nadu",
+      "imageUrl": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201810271627546230-e8eb15f2d85611e8aa930242ac110003.jpg?&output-quality=75&downsize=520:350&crop=520:350;2,0&output-format=jpg&downsize=480:336&crop=480:336",
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "hotelName": "Galaxy Paradise",
+      "city": "Mumbai",
+      "description": "An affordable family stay spot at the 'City' heart",
+      "amenities": "24 hr Homely Food, Swimming Pool, Security",
+      "phoneNo": 9393939393,
+      "address": "190/1B, Mumbai, Maharastra",
+      "imageUrl": "https://r1imghtlak.mmtcdn.com/976d5324220911e88615025f77df004f.jpg",
+      "reviews": []
+    }
+  ],
+  "bookings": [
+    {
+      "startDate": "2024-10-12",
+      "endDate": "2024-10-18",
+      "noOfPersons": 1,
+      "noOfRooms": 1,
+      "typeOfRoom": "AC",
+      "hotelId": 1,
+      "hotelName": "Paradise Stay",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "startDate": "2024-10-07",
+      "endDate": "2024-10-18",
+      "noOfPersons": 1,
+      "noOfRooms": 1,
+      "typeOfRoom": "AC",
+      "hotelId": 1,
+      "hotelName": "Paradise Stay",
+      "userId": 2,
+      "id": 4,
+      "bookingId": "4"
+    }
+  ]
+}

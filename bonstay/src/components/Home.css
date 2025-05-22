@@ -1,0 +1,24 @@
+.type{
+   background-image: url("../../public/assets/Picture2.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    width: 50rem;
+          margin-top:100px;
+          margin-left: 250px;
+          margin-bottom: 150PX;
+          padding: 50px;
+          padding-left: 50px;
+          padding-right: 50px;
+
+}
+
+.card-text{
+    font-family:'Tangerine', serif;
+    font-weight: 700; 
+    font-size: xx-large; 
+    color: rgb(16, 15, 15);  
+}
+.card:hover{
+    box-shadow: 5px 5px 5px black;
+}
